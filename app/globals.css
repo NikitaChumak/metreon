@@ -1145,4 +1145,14 @@ body {
   .location-tooltip {
     display: none;
   }
+
+  .cta-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .cta-subtitle {
+    font-size: var(--text-base-font-size);
+    line-height: var(--text-base-line-height);
+  }
 }
