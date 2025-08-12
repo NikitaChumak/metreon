@@ -5,5 +5,6 @@ export { default as ProductCategories } from './ProductCategories';
 export { default as StatsSection } from './StatsSection';
 export { default as ContactSection } from './ContactSection';
 export { default as TeamSection } from './TeamSection';
+export { default as TestimonialsSection } from './TestimonialsSection';
 export { default as CTASection } from './CTASection';
 export * from './Icons';

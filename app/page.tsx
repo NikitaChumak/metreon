@@ -5,6 +5,7 @@ import ProductCategories from './components/ProductCategories';
 import StatsSection from './components/StatsSection';
 import ContactSection from './components/ContactSection';
 import TeamSection from './components/TeamSection';
+import TestimonialsSection from './components/TestimonialsSection';
 import CTASection from './components/CTASection';
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <StatsSection />
       <ContactSection />
       <TeamSection />
+      <TestimonialsSection />
       <CTASection />
     </>
   );
