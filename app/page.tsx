@@ -6,6 +6,7 @@ import StatsSection from './components/StatsSection';
 import ContactSection from './components/ContactSection';
 import TeamSection from './components/TeamSection';
 import TestimonialsSection from './components/TestimonialsSection';
+import CareersSection from './components/CareersSection';
 import CTASection from './components/CTASection';
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       <ContactSection />
       <TeamSection />
       <TestimonialsSection />
+      <CareersSection />
       <CTASection />
     </>
   );
