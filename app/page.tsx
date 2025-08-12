@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import CompanyLogos from './components/CompanyLogos';
 import ProductCategories from './components/ProductCategories';
 import StatsSection from './components/StatsSection';
+import ContactSection from './components/ContactSection';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
 
       <ProductCategories />
       <StatsSection />
+      <ContactSection />
     </>
   );
 }
