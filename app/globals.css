@@ -7,6 +7,11 @@
 }
 
 :root {
+  --base-foreground: #0A0A0A;
+  --heading-lg-font-family: "Geist", sans-serif;
+  --heading-lg-font-size: 36px;
+  --heading-lg-font-weight: 700;
+  --heading-lg-line-height: 40px;
   --section-padding-y: 96px;
   --spacing-8: 32px;
   --spacing-4: 16px;
