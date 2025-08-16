@@ -7,6 +7,7 @@
 }
 
 :root {
+  --text-base-font-size: 16px;
   --base-border: #E5E5E5;
   --base-muted-foreground: #737373;
   --base-foreground: #0A0A0A;
