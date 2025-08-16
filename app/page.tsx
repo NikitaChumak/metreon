@@ -4,6 +4,7 @@ import CompanyLogos from './components/CompanyLogos';
 import ProductCategories from './components/ProductCategories';
 import StatsSection from './components/StatsSection';
 import ContactSection from './components/ContactSection';
+import CTASection from './components/CTASection';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <ProductCategories />
       <StatsSection />
       <ContactSection />
+      <CTASection />
     </>
   );
 }
