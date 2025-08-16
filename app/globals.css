@@ -841,14 +841,15 @@ body {
 
 .locations-grid {
   display: flex;
-  flex-direction: column;
   gap: var(--spacing-6);
+  flex-wrap: wrap;
 }
 
 .location-item {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-2);
+  width: calc(50% - var(--spacing-6));
 }
 
 .location-header {
