@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CompanyLogos from './components/CompanyLogos';
+import ProductCategories from './components/ProductCategories';
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
         <Hero />
         <CompanyLogos />
       </div>
+
+      <ProductCategories />
     </>
   );
 }
