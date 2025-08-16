@@ -1,13 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CompanyLogos from './components/CompanyLogos';
-import ProductCategories from './components/ProductCategories';
-import StatsSection from './components/StatsSection';
-import ContactSection from './components/ContactSection';
-import TeamSection from './components/TeamSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import CareersSection from './components/CareersSection';
-import CTASection from './components/CTASection';
 
 export default function Home() {
   return (
@@ -26,14 +19,6 @@ export default function Home() {
         <Hero />
         <CompanyLogos />
       </div>
-
-      <ProductCategories />
-      <StatsSection />
-      <ContactSection />
-      <TeamSection />
-      <TestimonialsSection />
-      <CareersSection />
-      <CTASection />
     </>
   );
 }
